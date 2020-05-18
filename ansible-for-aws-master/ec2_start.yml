@@ -18,3 +18,4 @@
         state: running
         wait: yes
       when: instanceid.stdout!="None"
+# sample template for ec2
