@@ -1,4 +1,5 @@
 ---
+#vpc updated
 - hosts: localhost
   connection: local
   gather_facts: no
@@ -12,4 +13,3 @@
         tags:
           Name: staging_vpc
       register: vpc_subnet
-
