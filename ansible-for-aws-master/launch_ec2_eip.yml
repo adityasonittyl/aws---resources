@@ -5,7 +5,7 @@
   vars:  
     region: ap-southeast-2    
   tasks:  
-    - name: launch instance
+    - name: launch ec2 with eip
       ec2:
         region: "{{ region }}"  
         key_name: yan-key-pair-apsydney  
